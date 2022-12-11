@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "scramjet": "^4.36.9",
+    "serialport": "^10.5.0"
+  }
+}
