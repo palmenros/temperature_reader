@@ -26,7 +26,7 @@ port.pipe(new StringStream)
         console.log(line);
         fs.appendFile(CSV_filepath, line, err => {
             if(err) {
-                throw err;
+                console.log(`ERROR! Couldn't append data to file: ${err}`)
             }
         });
     });
